@@ -1,0 +1,4 @@
+pipeline_id,name,description,type,tool,status,product_id
+pip01,core-banking-pipeline,CI/CD pipeline for core banking platform build and deployment,Build-Deploy,Jenkins,Active,app01
+pip02,mobile-app-pipeline,CI/CD pipeline for mobile banking app build and deployment,Build-Deploy,GitHub Actions,Active,app02
+pip03,payments-hub-pipeline,CI/CD pipeline for payments hub build and deployment,Build-Deploy,GitHub Actions,Active,app04

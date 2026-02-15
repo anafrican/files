@@ -1,0 +1,4 @@
+catalog_id,name,description,status,lob_id
+cat01,Technology Services Catalog,Internal technology platform services offered to business units,Active,lob01
+cat02,Digital Consumer Catalog,Consumer-facing digital banking services,Active,lob02
+cat03,Retail Banking Services Catalog,Services offered to retail banking consumers,Active,lob03

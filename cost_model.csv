@@ -1,0 +1,4 @@
+cost_model_id,name,allocation_method,cost_drivers,product_id
+cmo01,Core Banking Cost Model,Direct Allocation,Server count; Mainframe MIPS; FTE headcount allocated,app01
+cmo02,Mobile App Cost Model,Usage Based,API call volume; Infrastructure consumption; Support tickets,app02
+cmo03,Payments Hub Cost Model,Transaction Based,Transaction volume; Value processed; Infrastructure consumption,app04

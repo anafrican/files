@@ -1,0 +1,4 @@
+product_releaseblueprint_id,name,description,version_template,product_id
+relbp01,Core Banking Release Blueprint,Standard release structure for core banking platform releases,MAJOR.MINOR.PATCH,app01
+relbp02,Mobile App Release Blueprint,Standard release structure for mobile banking app releases,MAJOR.MINOR.PATCH-BUILD,app02
+relbp03,Payments Hub Release Blueprint,Standard release structure for payments hub releases,MAJOR.MINOR,app04

@@ -1,0 +1,4 @@
+runbook_id,name,description,procedure_steps,product_id
+run01,Core Banking Restart Procedure,Step-by-step procedure for restarting core banking application tier,"1. Notify on-call DBA; 2. Drain connections; 3. Restart app servers; 4. Validate health checks; 5. Notify stakeholders",app01
+run02,Mobile App Rollback Procedure,Procedure for rolling back mobile app to previous production version,"1. Raise emergency change; 2. Revert load balancer routing; 3. Validate previous version; 4. Monitor for 30 mins",app02
+run03,Payments Failover Procedure,Procedure for failing payments processing to DR site,"1. Declare incident; 2. Activate DR; 3. Reroute payment traffic; 4. Validate transactions; 5. Communicate to business",app04

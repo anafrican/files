@@ -1,0 +1,4 @@
+incident_id,title,description,severity,status,opened_date,resolved_date,product_id,identity_id
+inc01,Core Banking Login Timeout,Multiple customers unable to log in due to session timeout on low bandwidth connections,P2,Resolved,2026-01-10,2026-01-11,app01,idn01
+inc02,Mobile App Push Notification Delay,Push notifications delayed by up to 30 seconds during peak load causing customer complaints,P3,In Progress,2026-02-01,,app02,idn02
+inc03,Payments Processing Slowdown,Payment processing latency increased to 8 seconds during peak trading window,P1,Resolved,2026-01-20,2026-01-20,app04,idn03

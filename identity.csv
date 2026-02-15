@@ -1,0 +1,7 @@
+identity_id,name,type,status,email,department
+idn01,Jane Smith,User,Active,jane.smith@bank.com,Technology
+idn02,John Doe,User,Active,john.doe@bank.com,Digital Channels
+idn03,Bob Lee,User,Active,bob.lee@bank.com,Payments
+idn04,svc-core-banking,ServiceAccount,Active,,Core Banking Platform
+idn05,svc-mobile-app,ServiceAccount,Active,,Mobile Banking App
+idn06,svc-payments-hub,ServiceAccount,Active,,Payments Hub

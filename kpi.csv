@@ -1,0 +1,7 @@
+kpi_id,name,target_value,actual_value,unit,frequency,strategy_id
+kpi01,Digital Active Customers,80,72,Percent,Quarterly,str01
+kpi02,Technology Cost Reduction,15,8,Percent,Quarterly,str02
+kpi03,Mobile Active Users,4000000,3650000,Count,Monthly,str03
+kpi04,Critical Regulatory Findings,0,0,Count,Monthly,str04
+kpi05,Net Promoter Score,45,41,Score,Quarterly,str05
+kpi06,Deployment Frequency,50,38,Deployments per month,Monthly,str02

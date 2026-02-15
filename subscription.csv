@@ -1,0 +1,5 @@
+subscription_id,consumer_id,status,start_date,end_date,offer_id
+sub01,lob03,Active,2026-01-01,,off01
+sub02,lob02,Active,2026-01-01,,off02
+sub03,lob05,Active,2026-01-01,,off04
+sub04,lob04,Active,2026-01-15,,off05

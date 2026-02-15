@@ -1,0 +1,5 @@
+order_id,requested_by,status,order_date,offer_id
+ord01,idn01,Fulfilled,2026-01-05,off01
+ord02,idn02,Fulfilled,2026-01-08,off02
+ord03,idn03,Fulfilled,2026-01-12,off04
+ord04,idn01,Pending,2026-02-10,off05

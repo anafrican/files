@@ -1,0 +1,6 @@
+log_id,timestamp,log_level,message,source,instance_id
+log01,2026-01-10T08:23:00,WARN,Connection pool utilisation at 85% - approaching threshold,auth-service,aci01
+log02,2026-01-10T08:25:00,ERROR,Connection pool exhausted - new connections rejected,auth-service,aci01
+log03,2026-01-10T08:26:00,ERROR,Authentication request failed - no available connections,auth-service,aci01
+log04,2026-02-01T17:45:00,WARN,Notification queue depth at 12500 - scaling threshold is 10000,push-service,aci03
+log05,2026-01-20T10:15:00,ERROR,Query execution time exceeded 5000ms threshold on tbl_payments,payments-processor,aci04

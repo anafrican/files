@@ -1,0 +1,7 @@
+resource_id,name,resource_type,capacity,unit,product_id
+res01,Core Banking Compute,Infrastructure,128,vCPU,app01
+res02,Core Banking Storage,Infrastructure,50,TB,app01
+res03,Mobile App Compute,Infrastructure,32,vCPU,app02
+res04,Payments Hub Compute,Infrastructure,64,vCPU,app04
+res05,Core Banking FTE Allocation,Labor,12,FTE,app01
+res06,Payments Hub FTE Allocation,Labor,6,FTE,app04

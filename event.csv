@@ -1,0 +1,6 @@
+event_id,title,event_type,severity,timestamp,source_ci,status,instance_id
+evt01,Auth Service CPU Spike,Threshold Breach,Warning,2026-01-10T08:23:00,aci01,Closed,aci01
+evt02,Auth Service Connection Pool Exhausted,Threshold Breach,Critical,2026-01-10T08:25:00,aci01,Closed,aci01
+evt03,Mobile Push Queue Saturation,Threshold Breach,Warning,2026-02-01T17:45:00,aci03,Open,aci03
+evt04,Payments DB Query Slowdown,Performance,Critical,2026-01-20T10:15:00,aci04,Closed,aci04
+evt05,API Gateway Error Rate Spike,Threshold Breach,Warning,2026-02-10T14:30:00,aci05,Open,aci05

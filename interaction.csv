@@ -1,0 +1,5 @@
+interaction_id,channel,status,opened_date,consumer_id,resolved_by
+int01,Phone,Resolved,2026-01-10,idn01,idn01
+int02,Chat,In Progress,2026-02-01,idn02,
+int03,Email,Resolved,2026-01-20,idn03,idn03
+int04,Portal,Resolved,2026-01-15,idn01,idn01

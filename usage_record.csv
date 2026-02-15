@@ -1,0 +1,6 @@
+usage_id,period,metric,quantity,unit,instance_id
+usg01,FY26-Q1,API Calls,42800000,Calls,aci01
+usg02,FY26-Q1,Mobile Sessions,8650000,Sessions,aci03
+usg03,FY26-Q1,Payment Transactions,85600000,Transactions,aci04
+usg04,FY26-Q1,API Gateway Requests,120500000,Requests,aci05
+usg05,FY26-Q1,CPU Hours,14400,Hours,aci02

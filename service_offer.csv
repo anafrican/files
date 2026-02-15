@@ -1,0 +1,6 @@
+offer_id,name,description,offer_type,status,product_id
+off01,Core Banking Standard,Standard access to core banking platform for internal business units,Internal,Active,app01
+off02,Mobile Banking Consumer,Consumer-facing mobile banking application service,External,Active,app02
+off03,Internet Banking Consumer,Consumer-facing web banking portal service,External,Active,app03
+off04,Payments Processing Standard,Standard payment processing and routing service for business units,Internal,Active,app04
+off05,CRM Platform Internal,Internal CRM platform access for relationship managers,Internal,Active,app05

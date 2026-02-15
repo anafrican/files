@@ -1,0 +1,4 @@
+chargeback_contract_id,name,billing_model,rate,consumer_id,product_id
+cbc01,Retail Banking Core Banking Contract,Fixed Monthly,125000,lob03,app01
+cbc02,Digital Channels Mobile Contract,Usage Based,0.002,lob02,app02
+cbc03,Institutional Bank Payments Contract,Transaction Based,0.0005,lob05,app04

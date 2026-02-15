@@ -1,0 +1,4 @@
+knowledge_id,title,content,article_type,status,problem_id
+knw01,Core Banking Session Timeout Resolution,Increase connection pool timeout parameter in core-banking-auth-config.yaml from 30 to 120 seconds. Redeploy auth service.,Known Error,Published,prb01
+knw02,Mobile Push Notification Scaling,Configure auto-scaling policy on notification workers to scale out at 70% queue depth during 08:00-20:00 AEST.,Known Error,Draft,prb02
+knw03,Payments DB Index Rebuild Process,Execute sp_reindex_payments_tables during weekly maintenance window Saturday 02:00 AEST. Monitor query plan cache post-rebuild.,Known Error,Published,prb03

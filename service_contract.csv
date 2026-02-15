@@ -1,0 +1,5 @@
+contract_id,name,availability_target,rto,rpo,status,product_id
+svc01,Core Banking SLA,99.95,4h,1h,Active,app01
+svc02,Mobile Banking SLA,99.9,2h,30m,Active,app02
+svc03,Internet Banking SLA,99.9,2h,30m,Active,app03
+svc04,Payments Hub SLA,99.99,1h,15m,Active,app04

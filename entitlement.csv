@@ -1,0 +1,7 @@
+entitlement_id,access_level,status,identity_id,product_id
+ent01,Admin,Active,idn01,app01
+ent02,ReadWrite,Active,idn02,app02
+ent03,Admin,Active,idn03,app04
+ent04,ReadOnly,Active,idn04,app01
+ent05,ReadOnly,Active,idn05,app02
+ent06,ReadOnly,Active,idn06,app04

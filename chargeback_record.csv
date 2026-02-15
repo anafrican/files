@@ -1,0 +1,5 @@
+record_id,period,amount,status,chargeback_contract_id
+cbr01,FY26-Q1,125000,Invoiced,cbc01
+cbr02,FY26-Q1,84200,Invoiced,cbc02
+cbr03,FY26-Q1,42800,Invoiced,cbc03
+cbr04,FY26-Q2,125000,Draft,cbc01

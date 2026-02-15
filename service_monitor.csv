@@ -1,0 +1,6 @@
+monitor_id,name,check_type,threshold,frequency,instance_id
+mon01,Auth Service Health Check,HTTP,response_time_ms < 500,30s,aci01
+mon02,Auth Service CPU Monitor,Resource,cpu_percent < 80,60s,aci01
+mon03,Mobile UI Availability Check,HTTP,http_status == 200,60s,aci03
+mon04,Payment Processor Latency Check,HTTP,response_time_ms < 2000,30s,aci04
+mon05,API Gateway Error Rate Check,HTTP,error_rate_percent < 1,30s,aci05

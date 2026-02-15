@@ -1,0 +1,4 @@
+problem_id,title,root_cause,status,known_error,workaround,product_id
+prb01,Core Banking Session Management Defect,Connection pool exhaustion under low-bandwidth conditions causes session timeout on authentication service,Known Error,true,Increase connection pool timeout from 30s to 120s in app config,app01
+prb02,Mobile Push Notification Throughput,Message queue saturation during peak load causing notification delays exceeding SLA,Under Investigation,false,Scale notification worker instances during peak hours,app02
+prb03,Payments Latency Under Peak Load,Database index fragmentation causing query degradation during peak trading window,Known Error,true,Scheduled index rebuild during maintenance window,app04
