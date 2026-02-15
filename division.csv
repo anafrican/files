@@ -1,4 +1,4 @@
-division_id,company,name
+division_id,company_id,name
 div01,cmp02,Consumer
 div02,cmp02,Business & Wealth
 div03,cmp02,Institutional Bank
