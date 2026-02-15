@@ -1,1 +1,3 @@
 app_component_id,component_name,component_type,app_id
+A0003-ac01,Enterprise Ping IdP,Authentication,A0003
+A0003-ac02,Enterprise Ping Code Repository,Code Repository,A0003

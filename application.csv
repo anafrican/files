@@ -1,1 +1,4 @@
 application_id,name,desc,domain,domain_id,app_status,app_record_status,lob
+A0001,BitBucket,Code Repository,DevOps,dom-01,active,live,lob01
+A0002,Jenkins,Automation,DevOps,dom-01,active,live,lob01
+A0003,Ping ID,Identity & Access Managment Suite,Identity & Access Management,dom092,active,live,lob01
