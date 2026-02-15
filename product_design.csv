@@ -1,1 +1,4 @@
 design_id,design_name,artifact-aia,artifact-acd,artifact-itsa,digital_product_map,status
+des01,Core Banking Authentication Design,asd-cb-001,acd-cb-001,itsa-cb-001,app01,Approved
+des02,Mobile Banking Redesign,asd-mb-001,acd-mb-001,itsa-mb-001,app02,In Review
+des03,ISO 20022 Payments Design,asd-py-001,acd-py-001,itsa-py-001,app04,Draft

@@ -1,1 +1,4 @@
 repo_id,repo_name,repo_type,application_id,product_name
+src01,core-banking-repo,Git,app01,Core Banking Platform
+src02,mobile-app-repo,Git,app02,Mobile Banking App
+src03,payments-hub-repo,Git,app04,Payments Hub

@@ -1,1 +1,4 @@
 scope_id,product_id,requirement_id,status,scope_description,portfolio_map,budget_map
+sco01,app01,req01,Approved,Core banking phase 1 - authentication and MFA uplift,por01,bud01
+sco02,app02,req02,Approved,Mobile app refresh - biometric auth and UX overhaul,por02,bud02
+sco03,app04,req03,In Review,Payments ISO 20022 migration - phase 1 outbound messages,por01,bud03

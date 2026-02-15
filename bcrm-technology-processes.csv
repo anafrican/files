@@ -1,1 +1,6 @@
 bcrm_l3_id,l3_name,l2_group,l1_group
+vs01,Plan IT,IT Planning,IT Management
+vs02,Build IT,IT Delivery,IT Management
+vs03,Run IT,IT Operations,IT Management
+vs04,Manage Demand,Portfolio Planning,Portfolio Management
+vs05,Deploy Release,Release Management,IT Delivery

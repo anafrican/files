@@ -1,1 +1,4 @@
 budget_id,fin_period,investment_type,approved_budget,spend,forecast
+bud01,FY26-Q1,Capex,5000000,1200000,1800000
+bud02,FY26-Q1,Opex,800000,210000,400000
+bud03,FY26-Q2,Capex,3500000,0,1750000

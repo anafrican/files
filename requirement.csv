@@ -1,1 +1,6 @@
 requirement_id,requirement_name,requirement_description
+req01,Core Banking MFA Requirements,Users must authenticate via multi-factor authentication to access core banking systems
+req02,Mobile App Security Requirements,Mobile app must support biometric authentication with secure enclave storage
+req03,ISO 20022 Compliance Requirements,All outbound payment messages must conform to ISO 20022 pacs.008 format
+req04,API Governance Requirements,All APIs must be registered and catalogued in the enterprise API gateway
+req05,Cloud Security Baseline,All cloud workloads must comply with the cloud security baseline policy

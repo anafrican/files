@@ -1,1 +1,4 @@
 build_id,name,desc,type,status,compliance,version,source_id,test_plan_id,product_releaseblueprint_id,pipeline_id,product_id
+bld01,core-banking-2.1.0,Core banking build package for release 2.1,Container,Released,Compliant,2.1.0,src01,tpl01,relbp01,pip01,app01
+bld02,mobile-app-4.2.0,Mobile app build package for release 4.2,Container,In Progress,Compliant,4.2.0,src02,tpl02,relbp02,pip02,app02
+bld03,payments-1.0.0,Payments ISO 20022 build package for release 1.0,Container,Planned,Pending Review,1.0.0,src03,tpl01,relbp03,pip03,app04

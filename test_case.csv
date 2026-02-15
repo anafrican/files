@@ -1,1 +1,6 @@
 test_id,test_name,test_desc,test_type,status,result
+tcs01,User Authentication Test,Verify user can log in with valid MFA credentials,Functional,Completed,Pass
+tcs02,Biometric Login Test,Verify fingerprint authentication completes successfully,Functional,Completed,Pass
+tcs03,Push Notification Timing Test,Verify push notification delivered within 5 seconds of trigger event,Performance,In Progress,Fail
+tcs04,ISO Message Mapping Test,Verify outbound pacs.008 message passes ISO 20022 schema validation,Integration,Planned,Pending
+tcs05,API Documentation Coverage Test,Verify all app01 endpoints are documented in the API catalogue,Compliance,Completed,Pass

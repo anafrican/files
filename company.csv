@@ -1,3 +1,3 @@
 company_id,name,description,parent
-cmp01,Banking Group,The Group of businesses...,
+cmp01,Banking Group,The holding group of businesses that serve consumers and businesses across the region,
 cmp02,National Bank,The bank that serves a country,cmp01

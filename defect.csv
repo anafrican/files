@@ -1,1 +1,4 @@
 defect_id,def_title,def_desc,def_status,test_case_id,product_release_id,problem_id,product_backlog,requirement_id
+def01,Login Timeout on Low Bandwidth,Users experience session timeout after 30 seconds on low bandwidth connections,Resolved,tcs01,rel01,prb01,pbl01,req01
+def02,Biometric Fallback Not Triggering,Fallback to PIN authentication not triggered after failed biometric attempt,Open,tcs02,rel02,prb02,pbl02,req02
+def03,Push Notification 30s Delay,Customer push notifications delayed by up to 30 seconds during peak load,In Progress,tcs03,rel02,prb03,pbl03,req02

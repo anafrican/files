@@ -1,4 +1,6 @@
-app_comp_instance_id,name,app_component_id,app_id,environment_id,environment_name
-A0003-ac01-ins01,Enterprise Ping IdP Production,A0003-ac01,A0003,env01,Production
-A0003-ac01-ins02,Enterprise Ping IdP Test,A0003-ac01,A0003,env02,Test
-A0003-ac01-ins03,Enterprise Ping IdP Development,A0003-ac01,A0003,env03,Dev
+app_comp_instance_id,Name,app_component_id,app_id,environment_id,environment_name
+aci01,auth-svc-prod,apc01,app01,env01,Production
+aci02,auth-svc-dev,apc01,app01,env02,Development
+aci03,mobile-ui-prod,apc03,app02,env01,Production
+aci04,payment-proc-prod,apc04,app04,env01,Production
+aci05,api-gw-uat,apc05,app01,env03,UAT

@@ -1,1 +1,6 @@
-portfolio_backlog_id,name,desc,prioritisation,acceptance_criteria,related_product,demand_profile,ost_estimate,strategic_map,product_release,lob_id,portfolio_id
+portfolio_backlog_id,name,desc,prioritisation,acceptance_criteria,related_product,demand_profile,cost_estimate,strategic_map,product_release,lob_id,portfolio_id
+pbi01,Core Banking Modernisation Initiative,Full replacement of legacy core banking platform,1,Vendor selected and contract signed,app01,Strategic,25000000,str02,rel01,lob01,por01
+pbi02,Mobile Banking Uplift,Redesign and re-platform mobile banking application,2,App store rating above 4.5 post launch,app02,Strategic,4500000,str01,rel02,lob02,por02
+pbi03,ISO 20022 Payments Migration,Migrate payment messaging to ISO 20022 standard,1,Zero payment failures in parallel run,app04,Compliance,8000000,str04,rel03,lob01,por01
+pbi04,API Gateway Rollout,Deploy enterprise API gateway and onboard top 20 APIs,3,20 APIs onboarded and live in catalogue,app01,Efficiency,2200000,str02,rel01,lob01,por01
+pbi05,CRM Consolidation,Consolidate three legacy CRM systems into single platform,4,All customer data migrated with zero loss,app05,Efficiency,6000000,str05,rel01,lob03,por03

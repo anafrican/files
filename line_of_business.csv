@@ -1,5 +1,6 @@
 lob_id,division_id,name,company,lob_name
-lob01,div04,,,Enterprise Technology Services
-lob04,div04,,,Digital Protection Services
-lob02,div01,,,Auto Finance
-lob03,div02,,,SME Loans
+lob01,div04,ETS,cmp02,Enterprise Technology Services
+lob02,div04,DIG,cmp02,Digital Channels
+lob03,div01,RET,cmp02,Retail Banking
+lob04,div02,WLT,cmp02,Wealth Management
+lob05,div03,INS,cmp02,Institutional Markets

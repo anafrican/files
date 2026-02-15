@@ -1,1 +1,4 @@
 product_release_id,product_id,product_release_name,product_release_description,status,version,tags,deployment_model,actual_spend,test_case_id,product_design,requirement_id,defect_id
+rel01,app01,Core Banking Release 2.1,Phase 1 core banking feature release including MFA uplift,Released,2.1,core-banking auth mfa,On-Prem,1250000,tcs01,des01,req01,def01
+rel02,app02,Mobile App Release 4.2,Mobile app biometric authentication and UX refresh,In Progress,4.2,mobile ux biometric,Cloud,380000,tcs02,des02,req02,def02
+rel03,app04,Payments Release 1.0,ISO 20022 first release covering outbound pacs.008 messages,Planned,1.0,iso20022 payments,Hybrid,0,tcs04,des03,req03,

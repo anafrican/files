@@ -1,1 +1,4 @@
 fulfil_id,name,desc,category,execution_time,product_instance_id,product_id
+ful01,Core Banking Prod Deploy,Deployment pipeline for core banking production release,Release Deployment,4h,aci01,app01
+ful02,Mobile App Prod Deploy,Deployment pipeline for mobile app production release,Release Deployment,2h,aci03,app02
+ful03,Payments UAT Deploy,Deployment pipeline for payments UAT release,Release Deployment,6h,aci04,app04

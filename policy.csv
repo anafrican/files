@@ -1,1 +1,4 @@
 policy_id,policy_clause_id,policy_clause,policy_name,identity_id,policy_owner,policy_publish_date,policy_review_date
+pol01,cls01,Section 4.2 Data Retention,Technology Risk Policy,id01,CISO Office,2024-01-15,2025-01-15
+pol02,cls02,Section 2.1 Change Management,IT Operations Policy,id02,CTO Office,2024-03-01,2025-03-01
+pol03,cls03,Section 7.3 Cloud Usage Standards,Cloud Security Policy,id03,CISO Office,2024-06-01,2025-06-01

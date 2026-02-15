@@ -1,3 +1,6 @@
 app_component_id,component_name,component_type,app_id
-A0003-ac01,Enterprise Ping IdP,Authentication,A0003
-A0003-ac02,Enterprise Ping Code Repository,Code Repository,A0003
+apc01,Authentication Service,Microservice,app01
+apc02,Account Management Service,Microservice,app01
+apc03,Mobile UI,Frontend,app02
+apc04,Payment Processor,Microservice,app04
+apc05,API Gateway,Infrastructure,app01

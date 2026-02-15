@@ -1,1 +1,6 @@
 product_backlog_item,product_id,item_type,priority,effort_estimate,requirement,accecptance_criteria,product_owner,product_release,budget_item,source_code,test_case,defect,product_design,product_backlog_name
+pbl01,app01,Story,High,8,req01,User can log in with MFA within 10 seconds,Jane Smith,rel01,bud01,src01,tcs01,def01,des01,Core Banking - User Authentication
+pbl02,app02,Story,High,5,req02,Fingerprint login completes in under 2 seconds,John Doe,rel02,bud02,src02,tcs02,def02,des02,Mobile App - Biometric Authentication
+pbl03,app02,Bug,High,3,req02,Push notifications delivered within 5 seconds of trigger,Jane Smith,rel02,bud02,src02,tcs03,def03,des02,Mobile App - Push Notification Delay
+pbl04,app04,Story,High,13,req03,ISO pacs.008 messages pass validation on test harness,Bob Lee,rel03,bud03,src03,tcs04,,des03,Payments - ISO 20022 Message Mapping
+pbl05,app01,Task,Low,2,req04,All app01 endpoints documented in API gateway catalogue,Jane Smith,rel01,bud01,src01,tcs05,,des01,Core Banking - API Documentation

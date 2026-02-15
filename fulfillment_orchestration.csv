@@ -1,1 +1,4 @@
-fulfillment_orch_id,name,fulfillment_id,fulfillment_name,fulfillment_desc,environment_target
+fulfillment_orch_id,Name,fulfillment_id,fulfillment_name,fulfillment_desc,environment_target
+fro01,Core Banking Production Orchestration,ful01,Core Banking Prod Deploy,Orchestrates the full production deployment pipeline for core banking releases,env01
+fro02,Mobile App Production Orchestration,ful02,Mobile App Prod Deploy,Orchestrates the production deployment pipeline for mobile app releases,env01
+fro03,Payments UAT Orchestration,ful03,Payments UAT Deploy,Orchestrates the UAT deployment pipeline for payments releases,env03

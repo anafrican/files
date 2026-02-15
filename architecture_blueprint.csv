@@ -1,1 +1,4 @@
 architecture_blueprint_id,arch_blueprint_name,arch_blueprint_description,arch_blueprint_business,arch_blueprint_data,arch_blueprint_application,arch_blueprint_tech
+abp01,Enterprise Architecture Blueprint 2025,Target state enterprise architecture for FY25-27,Business Domain Model,Canonical Data Model,Application Portfolio Map,Cloud-first Infrastructure
+abp02,Digital Channel Blueprint,Digital channel target architecture,Customer Journey Model,Customer Data Model,Digital App Portfolio,Public Cloud Platform
+abp03,Payments Architecture Blueprint,Payments modernisation target architecture,Payments Domain Model,Payments Data Model,Payments Application Portfolio,ISO 20022 Infrastructure
