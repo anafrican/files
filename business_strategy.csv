@@ -1,6 +1,6 @@
-strategy_id,ObjectType,Category,Subcategory,Details
-str01,Objective,Growth,Digital,Grow digital customer base to 80% by FY27
-str02,Objective,Efficiency,Technology,Reduce technology costs by 15% through platform consolidation
-str03,KPI,Growth,Digital,Mobile active users exceeds 4 million
-str04,Objective,Risk,Compliance,Zero critical regulatory findings in technology
-str05,Objective,Customer,Experience,Net Promoter Score above 45 across all channels
+strategy_id,ObjectType,Category,Subcategory,Details,theme_id
+str01,Objective,Growth,Digital,Grow digital customer base to 80% by FY27,thm01
+str02,Objective,Efficiency,Technology,Reduce technology costs by 15% through platform consolidation,thm02
+str03,KPI,Growth,Digital,Mobile active users exceeds 4 million,thm01
+str04,Objective,Risk,Compliance,Zero critical regulatory findings in technology,thm03
+str05,Objective,Customer,Experience,Net Promoter Score above 45 across all channels,thm04
