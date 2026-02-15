@@ -1,2 +1,5 @@
 lob_id,division_id,name,company,lob_name
 lob01,div04,,,Enterprise Technology Services
+lob04,div04,,,Digital Protection Services
+lob02,div01,,,Auto Finance
+lob03,div02,,,SME Loans
