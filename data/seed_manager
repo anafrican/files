@@ -1,0 +1,129 @@
+import pandas as pd
+import uuid
+import random
+import os
+from faker import Faker
+
+# Initialize Faker
+fake = Faker()
+
+class SeedManager:
+    """
+    Handles loading and sampling from user-provided CSV seed files.
+    Expected naming convention: {EntityName}.csv (e.g., StrategicTheme.csv)
+    """
+    def __init__(self, seed_dir="."):
+        self.seed_dir = seed_dir
+        self.seeds = {}
+        self._load_seeds()
+
+    def _load_seeds(self):
+        """Discovers and loads all CSV files in the directory."""
+        for file in os.listdir(self.seed_dir):
+            if file.endswith(".csv"):
+                entity_name = file.replace(".csv", "")
+                try:
+                    df = pd.read_csv(os.path.join(self.seed_dir, file))
+                    if not df.empty:
+                        self.seeds[entity_name] = df
+                        print(f"✅ Loaded seed file for: {entity_name} ({len(df)} rows)")
+                except Exception as e:
+                    print(f"❌ Failed to load {file}: {e}")
+
+    def get_value(self, entity_name, column_name, default_func):
+        """
+        Returns a random value from the seed CSV if it exists.
+        Falls back to a faker function if the seed or column is missing.
+        """
+        if entity_name in self.seeds:
+            df = self.seeds[entity_name]
+            if column_name in df.columns:
+                return random.choice(df[column_name].dropna().tolist())
+        
+        # Fallback to Faker/Default
+        return default_func()
+
+class SeededAxisIQGenerator:
+    def __init__(self, num_records=20, seed_dir="."):
+        self.n = num_records
+        self.seed_manager = SeedManager(seed_dir)
+        self.data = {}
+        self.ids = {} # Registry for referential integrity
+
+    def _get_id(self, entity_key):
+        """Retrieve a random parent ID for foreign keys."""
+        if entity_key not in self.ids or not self.ids[entity_key]:
+            return str(uuid.uuid4()) # Fallback to a new UUID if no parent exists
+        return random.choice(self.ids[entity_key])
+
+    def generate_strategy(self):
+        """Generates Strategic Themes and Objectives using Seeds."""
+        print("\n--- Generating Strategy Domain ---")
+        
+        # 1. StrategicTheme
+        themes = []
+        theme_ids = []
+        for _ in range(self.n // 4):
+            t_id = str(uuid.uuid4())
+            theme_ids.append(t_id)
+            themes.append({
+                'theme_id': t_id,
+                'name': self.seed_manager.get_value('StrategicTheme', 'name', fake.catch_phrase),
+                'description': self.seed_manager.get_value('StrategicTheme', 'description', fake.sentence),
+                'time_horizon': self.seed_manager.get_value('StrategicTheme', 'time_horizon', lambda: "2024-2026")
+            })
+        self.ids['theme'] = theme_ids
+        self.data['StrategicTheme'] = pd.DataFrame(themes)
+
+        # 2. StrategicObjective (links to Theme)
+        objectives = []
+        obj_ids = []
+        for _ in range(self.n):
+            o_id = str(uuid.uuid4())
+            obj_ids.append(o_id)
+            objectives.append({
+                'strategy_id': o_id,
+                'name': self.seed_manager.get_value('StrategicObjective', 'name', fake.bs),
+                'Category': self.seed_manager.get_value('StrategicObjective', 'Category', lambda: "Growth"),
+                'theme_id': self._get_id('theme') # Referential Integrity
+            })
+        self.ids['objective'] = obj_ids
+        self.data['StrategicObjective'] = pd.DataFrame(objectives)
+
+    def generate_org(self):
+        """Generates Company and Division using Seeds."""
+        print("--- Generating Organisation Domain ---")
+        
+        # 1. Company
+        companies = []
+        comp_ids = []
+        for _ in range(max(1, self.n // 10)):
+            c_id = str(uuid.uuid4())
+            comp_ids.append(c_id)
+            companies.append({
+                'company_id': c_id,
+                'name': self.seed_manager.get_value('Company', 'name', fake.company),
+                'parent': None
+            })
+        self.ids['company'] = comp_ids
+        self.data['Company'] = pd.DataFrame(companies)
+
+    def save_all(self, output_dir="output"):
+        """Saves the generated synthetic data to CSV."""
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        for entity, df in self.data.items():
+            df.to_csv(f"{output_dir}/{entity}.csv", index=False)
+        print(f"\nSuccessfully saved {len(self.data)} tables to '{output_dir}/'")
+
+# --- MAIN EXECUTION ---
+if __name__ == "__main__":
+    # 1. Create the generator (it looks for CSVs in the current folder)
+    generator = SeededAxisIQGenerator(num_records=50)
+    
+    # 2. Run domain generations
+    generator.generate_org()
+    generator.generate_strategy()
+    
+    # 3. Export
+    generator.save_all()
